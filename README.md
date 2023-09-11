@@ -12,7 +12,7 @@ For each setup, there is a separate file, e.g., run_cifar10_experiments.py.
 Note that data for the mixed sequence experiments must be downloaded prior to running the experiments and put into the following folder structure: \
 
 test_meta_path = "celeb_data/test/all_data_iid_01_05_keep_5_test_9.json" \
-train_meta_path = "celeb_data/train/all_data_iid_01_05_keep_5_train_9.json"\
+train_meta_path = "celeb_data/train/all_data_iid_01_05_keep_5_train_9.json" \
 
 The file build_celeba.py will take care of loading and preparing the files.
 
